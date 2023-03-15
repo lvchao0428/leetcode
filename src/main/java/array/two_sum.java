@@ -32,6 +32,13 @@ public class two_sum {
   }
 
   public class Sol2{
+    /**
+     * 57/57 solution
+     *
+     * @param nums
+     * @param target
+     * @return
+     */
     public int[] twoSum(int[] nums, int target) {
       HashMap<Integer, Integer> im = new HashMap<>();
       int[] res = new int[2];
