@@ -25,7 +25,6 @@ import java.util.Map;
 public class T_266 {
   public boolean canPermutePalindrome(String s) {
     char[] chr = s.toCharArray();
-    Arrays.sort(chr);
     HashMap<Character, Integer> counter = new HashMap<>();
     int oddNum = 0;
     for (char c : chr) {
