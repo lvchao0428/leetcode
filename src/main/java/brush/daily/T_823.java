@@ -49,7 +49,6 @@ public class T_823 {
     return (int)(ans % MOD);
   }
 
-
   public long dfs(int i, int[] arr, long[] memo, Map<Integer, Integer> idxMap) {
     if (memo[i] != -1) {
       return memo[i];
