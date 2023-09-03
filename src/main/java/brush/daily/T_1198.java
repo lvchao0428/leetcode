@@ -30,7 +30,7 @@ import java.util.Set;
  *
  * 输入：mat = [[1,2,3],[2,3,4],[2,3,5]]
  * 输出： 2
- * 
+ *
  * Created by charlielv on 2023.09.03.
  */
 public class T_1198 {
